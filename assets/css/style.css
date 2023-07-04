@@ -6,8 +6,8 @@ html {
 }
 body {
     font-size: 1.6rem;
-    
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFAF5;
 }
 h1, h2, h3, h4 {
     font-family: 'Sora', sans-serif;
@@ -18,7 +18,7 @@ input, textarea, select, button {
 }
 /* common */
 .content {
-    max-width: calc(100%-28px);
+    max-width: calc(100%-48px);
     width: 1170px;
     margin: 0 auto;
 }
@@ -36,7 +36,7 @@ input, textarea, select, button {
 .btn {
    color: #FF5B2E;
     border: 1px solid #FF5B2E;
-    
+    text-decoration: none;
 }
 .btn:hover {
     color: #fff;
@@ -47,6 +47,13 @@ input, textarea, select, button {
     font-size: 5.2rem;
     font-weight: 700;
     line-height: 62px;
+}
+.title-lv3 {
+    color: #000958;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 22px;
 }
 .desc {
     color: #656689;
